@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
+        <ImplicitUsings>disable</ImplicitUsings>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>Resulto</PackageId>
+        <Description>A lightweight, dependency-free Result pattern for .NET. Model success and failure explicitly with Map/Bind/Ensure/Tap/Match, extensible error categories, and structured validation errors.</Description>
+        <PackageTags>result;result-pattern;railway;functional;error-handling;monad;validation</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- Neutral (English): explicit name must match ResourceManager base name "Resulto.Resources.Messages". -->
+        <EmbeddedResource Include="Resources/Messages.restext">
+            <LogicalName>Resulto.Resources.Messages.resources</LogicalName>
+        </EmbeddedResource>
+        <!-- Culture variants: no LogicalName so the build routes them into satellite assemblies (culture stripped). -->
+        <EmbeddedResource Include="Resources/Messages.ru.restext">
+            <Culture>ru</Culture>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Resources/Messages.tg.restext">
+            <Culture>tg</Culture>
+        </EmbeddedResource>
+    </ItemGroup>
+
+</Project>

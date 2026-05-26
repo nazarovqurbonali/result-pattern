@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Resulto/Resulto.csproj" />
+    <Project Path="src/Resulto.AspNetCore/Resulto.AspNetCore.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/Resulto.Sample.Api/Resulto.Sample.Api.csproj" />
+  </Folder>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/Resulto.Benchmarks/Resulto.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Resulto.Tests/Resulto.Tests.csproj" />
+    <Project Path="tests/Resulto.AspNetCore.Tests/Resulto.AspNetCore.Tests.csproj" />
+  </Folder>
+</Solution>

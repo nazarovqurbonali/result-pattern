@@ -1,0 +1,13 @@
+### Exception
+CannotAccessErrorOnSuccess=Невозможно получить Error из успешного результата. Проверьте IsFailure перед обращением к Error.
+ResultIsFailure=Невозможно получить Value из неуспешного результата. Проверьте IsSuccess перед обращением к Value.
+CannotConvertSuccessBaseResultToTypedResult=Невозможно преобразовать успешный BaseResult в Result<{0}> без значения.
+### ResultError
+BadRequest=Некорректный запрос.
+Unauthorized=Требуется аутентификация.
+Forbidden=У вас нет прав для выполнения этого действия.
+NotFound=Запрашиваемый ресурс не найден.
+Conflict=Запрос конфликтует с текущим состоянием ресурса.
+UnsupportedMediaType=Неподдерживаемый тип содержимого.
+Validation=Обнаружены ошибки валидации.
+InternalServerError=Произошла непредвиденная ошибка.

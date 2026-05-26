@@ -1,0 +1,13 @@
+### Exception
+CannotAccessErrorOnSuccess=Аз натиҷаи бомуваффақ Error гирифтан мумкин нест. Пеш аз дастрасӣ ба Error, IsFailure-ро санҷед.
+ResultIsFailure=Аз натиҷаи нокомёб Value гирифтан мумкин нест. Пеш аз дастрасӣ ба Value, IsSuccess-ро санҷед.
+CannotConvertSuccessBaseResultToTypedResult=BaseResult-и бомуваффақро бе қимат ба Result<{0}> табдил додан мумкин нест.
+### ResultError
+BadRequest=Дархост нодуруст аст.
+Unauthorized=Аутентификатсия лозим аст.
+Forbidden=Шумо барои иҷрои ин амал иҷозат надоред.
+NotFound=Захираи дархостшуда ёфт нашуд.
+Conflict=Дархост бо ҳолати ҷории захира зиддият дорад.
+UnsupportedMediaType=Навъи мундариҷа дастгирӣ намешавад.
+Validation=Як ё якчанд хатои тасдиқ ба амал омад.
+InternalServerError=Хатои ғайричашмдошт рух дод.

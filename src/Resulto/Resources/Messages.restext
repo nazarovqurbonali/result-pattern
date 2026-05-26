@@ -1,0 +1,13 @@
+### Exception
+CannotAccessErrorOnSuccess=Cannot access Error on a successful result. Check IsFailure before accessing Error.
+ResultIsFailure=Cannot access Value on a failed result. Check IsSuccess before accessing Value.
+CannotConvertSuccessBaseResultToTypedResult=Cannot convert a successful BaseResult to Result<{0}> without a value.
+### ResultError
+BadRequest=The request is invalid.
+Unauthorized=Authentication is required.
+Forbidden=You do not have permission to perform this action.
+NotFound=The requested resource was not found.
+Conflict=The request conflicts with the current state of the resource.
+UnsupportedMediaType=The request media type is not supported.
+Validation=One or more validation errors occurred.
+InternalServerError=An unexpected error occurred.

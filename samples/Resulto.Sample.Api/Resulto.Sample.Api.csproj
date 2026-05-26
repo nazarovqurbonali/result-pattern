@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Resulto\Resulto.csproj" />
+    <ProjectReference Include="..\..\src\Resulto.AspNetCore\Resulto.AspNetCore.csproj" />
+  </ItemGroup>
+
+</Project>
