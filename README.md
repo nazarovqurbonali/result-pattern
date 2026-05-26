@@ -4,7 +4,7 @@ A lightweight, dependency-free **Result pattern** for .NET. Model success and fa
 *explicitly* instead of throwing exceptions for expected error cases — then chain, transform,
 and map your results with a small, predictable API.
 
-[![CI](https://github.com/nazarovqurbonali/resulto/actions/workflows/ci.yml/badge.svg)](https://github.com/nazarovqurbonali/resulto/actions/workflows/ci.yml)
+[![CI](https://github.com/nazarovqurbonali/result-pattern/actions/workflows/ci.yml/badge.svg)](https://github.com/nazarovqurbonali/result-pattern/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Resulto.svg)](https://www.nuget.org/packages/Resulto)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
